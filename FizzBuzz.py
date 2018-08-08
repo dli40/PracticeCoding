@@ -1,5 +1,5 @@
 #GET INFO HERE
-with open fp as ("FizzBuzz.txt", r):
+fp = open("FizzBuzz.txt", r):
     line = fp.read()
     x = str(line[0])
     y=str(line[2])
